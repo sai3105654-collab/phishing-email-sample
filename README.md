@@ -27,7 +27,8 @@ Step 4: Website Observation
 
 after clicking the link
 
-![WhatsApp Image 2025-09-24 at 20 32 47_bebbc56b](https://github.com/user-attachments/assets/838aa078-6a09-43b4-bccc-f4b1e60d4c24)
+![WhatsApp Image 2025-09-24 at 20 46 05_9ac9b887](https://github.com/user-attachments/assets/79cdb5e0-d153-4f49-9253-b26c5464db8a)
+
 
 I observed the website linked in the email in a safe environment, such as a sandbox or virtual machine. The website was designed to look exactly like the real service, such as PayPal or Microsoft, in order to trick users into entering their credentials. The email also used urgent language to pressure recipients into clicking the link immediately, which is a common phishing tactic.
 
