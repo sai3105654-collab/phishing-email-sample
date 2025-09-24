@@ -1,0 +1,80 @@
+Return-Path: <bounces@198.51.100.22>
+Received: from attacker-host (unknown [198.51.100.22])
+    by mx.yourorg.example (Postfix) with ESMTP id 3F4A9B12
+    for <you@example.org>; Wed, 24 Sep 2025 09:12:33 +0000 (UTC)
+Received: from [127.0.0.1] (localhost [127.0.0.1])
+    by attacker-host (Postfix) with ESMTP id 7D9C2F11
+    for <mx.yourorg.example>; Wed, 24 Sep 2025 09:12:32 +0000 (UTC)
+Authentication-Results: mx.yourorg.example;
+    spf=fail (mx.yourorg.example: domain of secure-paypal.example does not designate 198.51.100.22 as permitted sender) smtp.mailfrom=secure-paypal.example;
+    dkim=fail (signature verification failed) header.d=paypal.example;
+    dmarc=fail (p=none disaligned) header.from=paypal.example
+Received-SPF: fail (mx.yourorg.example: domain of secure-paypal.example does not permit IP 198.51.100.22 to send)
+From: "PayPal Support" <support@secure-paypal.example>
+To: you@example.org
+Subject: Urgent: Your account has been suspended — verify immediately
+Date: Wed, 24 Sep 2025 09:12:33 +0000
+Message-ID: <training-0001@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_000_abcdef"
+
+------=_Part_000_abcdef
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+Dear Customer,
+
+We detected suspicious activity on your account and, to protect you, your account has been temporarily suspended. You MUST verify your account within 24 hours or your account will be permanently closed.
+
+Please verify now to avoid permanent closure:
+https://www.paypal.com/verify
+
+Verify these details immediately:
+ - Full name
+ - Date of birth
+ - Billing address
+ - Credit/Debit card number (full)
+ - Password
+
+Thank you for your co-operation.
+Immediatly verify to restore access.
+
+PayPal Support Team
+
+------=_Part_000_abcdef
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body style="font-family: Arial, sans-serif; font-size: 14px;">
+    <p>Dear Customer,</p>
+
+    <p><strong>Important:</strong> We detected suspicious activity on your PayPal account and, for your protection, your account has been <b>temporarily suspended</b>. You <strong>MUST</strong> verify your account within <b>24 hours</b> or your account will be permanently closed.</p>
+
+    <p>Please click the link below to verify your account immediately and avoid permanent closure:</p>
+
+    <!-- Display text intentionally shows a PayPal URL while the real href is a safe training domain -->
+    <p><a href="https://example.com/training/paypal-verify?session=TRAINING_TOKEN">https://www.paypal.com/verify</a></p>
+
+    <p>When verifying, please provide the following information:
+      <ul>
+        <li>Full name</li>
+        <li>Date of birth</li>
+        <li>Billing address</li>
+        <li>Credit / Debit card number (full)</li>
+        <li>Account password</li>
+      </ul>
+    </p>
+
+    <p style="color: #cc0000;"><em>If you do not verify your account within 24 hours, your account and any pending payments will be cancelled.</em></p>
+
+    <p>Sincerely,<br>PayPal Support Team</p>
+
+    <p style="font-size:11px;"><small>Note: This message was sent from an unmonitored address. Please do not reply.</small></p>
+
+    <!-- intentional minor spelling/grammar errors for realism -->
+    <p><em>Thank you for your co-operation.<br>Immediatly verify to restore access.</em></p>
+  </body>
+</html>
+
+------=_Part_000_abcdef--
