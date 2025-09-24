@@ -1,0 +1,23 @@
+From: "PayPal Support" <support@secure-paypal.example>
+To: you@example.org
+Subject: Urgent: Your account has been suspended — verify immediately
+Date: Wed, 24 Sep 2025 09:12:33 +0000
+
+Dear Customer,
+
+We detected suspicious activity on your account and, to protect you, your account has been temporarily suspended. You MUST verify your account within 24 hours or your account will be permanently closed.
+
+Please verify now to avoid permanent closure:
+https://www.paypal.com/verify
+
+Verify these details immediately:
+ - Full name
+ - Date of birth
+ - Billing address
+ - Credit/Debit card number (full)
+ - Password
+
+Thank you for your co-operation.
+Immediatly verify to restore access.
+
+PayPal Support Team
