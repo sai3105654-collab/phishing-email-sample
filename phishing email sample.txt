@@ -8,7 +8,7 @@ Dear Customer,
 We detected suspicious activity on your account and, to protect you, your account has been temporarily suspended. You MUST verify your account within 24 hours or your account will be permanently closed.
 
 Please verify now to avoid permanent closure:
-https://www.paypal.com/verify
+https://www.paypal.com/verify [href="https://example.com/training/paypal-verify?session=TRAINING_TOKEN ]
 
 Verify these details immediately:
  - Full name
@@ -19,5 +19,6 @@ Verify these details immediately:
 
 Thank you for your co-operation.
 Immediatly verify to restore access.
+
 
 PayPal Support Team
